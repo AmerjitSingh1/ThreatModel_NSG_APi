@@ -27,8 +27,8 @@
                 "height": 100
               },
               "position": {
-                "x": 260,
-                "y": 20
+                "x": 311,
+                "y": 1
               },
               "angle": 0,
               "id": "fdda2d5b-1b59-4a46-86ae-26e43a939a90",
@@ -37,49 +37,49 @@
               "threats": [
                 {
                   "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
-                  "title": "Generic spoofing threat",
+                  "title": "spoofing-Interpreted portfolio report",
                   "type": "Spoofing",
                   "modelType": "STRIDE",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic spoofing threat",
-                  "mitigation": "Mitigation or prevention for the threat",
+                  "description": "External Actor can place large amount of new orders which can incur charge to landmark.",
+                  "mitigation": "Azure Frontdoor DOS protection \nAzure Application Gateway DOS protection \nAzure API Management policy claims check protection",
                   "threatId": "d7e74586-fb2c-4850-a771-e0a2cfa2ab43",
-                  "$$hashKey": "object:992"
+                  "$$hashKey": "object:1090"
                 },
                 {
                   "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "Generic tampering threat",
+                  "title": "tampering-Interpreted portfolio report",
                   "type": "Tampering",
                   "modelType": "STRIDE",
                   "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic tampering threat",
-                  "mitigation": "Mitigation or prevention for the threat",
+                  "severity": "Low",
+                  "description": "External Actor can tamper a request for order and may enable other risks which are not required. This may incur some costing to Landmark.",
+                  "mitigation": "TODO",
                   "threatId": "5319b743-8821-4ae9-8178-ef9d4b3bc5f4",
-                  "$$hashKey": "object:504"
+                  "$$hashKey": "object:1096"
                 },
                 {
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Generic repudiation threat",
+                  "title": "repudiation-Interpreted portfolio UI",
                   "type": "Repudiation",
                   "modelType": "STRIDE",
                   "status": "Open",
                   "severity": "Medium",
-                  "description": "A generic repudiation threat",
-                  "mitigation": "Mitigation or prevention for the threat",
+                  "description": "External actor could claim request did not submitted for an specific property for an order when they did",
+                  "mitigation": "logging audit files,\nApplication Insight logs",
                   "threatId": "ba02249f-34e1-4fa1-ba17-6979e50713f4",
                   "$$hashKey": "object:513"
                 },
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
-                  "title": "Generic information disclosure threat",
+                  "title": "information disclosure-Interpreted portfolio UI",
                   "type": "Information disclosure",
                   "modelType": "STRIDE",
                   "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic information disclosure threat",
-                  "mitigation": "Mitigation or prevention for the threat",
+                  "severity": "Low",
+                  "description": "Internal Actor\n\nPII, Keys, certificates stored in the system\n\nHave access to blob store",
+                  "mitigation": "Data retention policy for 14 days",
                   "threatId": "faef6582-bbd2-4a9a-a6de-585c9c4749aa",
                   "$$hashKey": "object:522"
                 },
@@ -88,26 +88,28 @@
                   "title": "Generic DoS threat",
                   "type": "Denial of service",
                   "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic DoS threat",
-                  "mitigation": "Mitigation or prevention for the threat",
+                  "status": "NotApplicable",
+                  "severity": "Low",
+                  "description": "Already part of webrequest",
+                  "mitigation": "Already part of webrequest",
                   "threatId": "4e21ee71-1e72-42a6-acca-b55538dd7c73",
-                  "$$hashKey": "object:531"
+                  "$$hashKey": "object:1136"
                 },
                 {
                   "ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
                   "title": "Generic elevation threat",
                   "type": "Elevation of privilege",
                   "modelType": "STRIDE",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic elevation of privileges threat",
-                  "mitigation": "Mitigation or prevention for the threat",
+                  "status": "NotApplicable",
+                  "severity": "Low",
+                  "description": "Single roles for consumer",
+                  "mitigation": "NA",
                   "threatId": "3172e8d3-f017-4dc5-83df-cfbfeb696f88",
                   "$$hashKey": "object:540"
                 }
               ],
+              "isWebApplication": true,
+              "description": "Storage static website written in Angular 12 hosted from storage container.",
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasOpenThreats isInScope"
@@ -732,7 +734,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 13",
+                      "text": "web request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -740,15 +742,54 @@
                 }
               ],
               "z": 16,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isPublicNetwork": true,
               "isEncrypted": true,
+              "threats": [
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "tampering request to Interpreted portfolio",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Low",
+                  "description": "External Actor can tampered the request and do modification on existing order. Impact will be increase in number of properties assessment in single request.",
+                  "mitigation": "TODO",
+                  "threatId": "dd8756d9-88cc-4a96-b9fe-147b1b7cb0bc",
+                  "$$hashKey": "object:1060"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "disclosure request to Interpreted portfolio UI",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "NotApplicable",
+                  "severity": "Low",
+                  "description": "No PII",
+                  "mitigation": "NA",
+                  "threatId": "790b731c-18b3-4172-90e6-d6e454872bc7",
+                  "$$hashKey": "object:1069"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "DoS request to Interpreted portfolio UI",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "External Actor can do DDOS/RDOS by sending huge amount of request. however, infra is in azure and already prevents the DoS attacks.",
+                  "mitigation": "Azure frontdoor protection\nAzure application gateway protection",
+                  "threatId": "70d77790-9650-45b7-8aa0-06f75c687285",
+                  "$$hashKey": "object:1078"
+                }
+              ],
+              "protocol": "https",
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             }
