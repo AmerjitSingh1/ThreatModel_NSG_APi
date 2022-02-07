@@ -3,7 +3,7 @@
 This repository is for maintaining changes for nextgen dragon-threat model.
 </h3>
 </br>
-<h3>[TODO]<h3></br>
+<h3>[TODO]</h3></br>
 1. Threat model diagram [In-progress]</br>
 2. Mention STRIDE for each components and mitigations [In-progress]</br>
 3. Need implementaion of each components to actual resources (like Azure FD and Azure application gateway for DDoS attacks). [TODO] </br>
