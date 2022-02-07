@@ -1,0 +1,765 @@
+{
+  "summary": {
+    "title": "Nextgen Threat Dragon Model",
+    "owner": "Nextgen",
+    "description": "Nextgen orchestration HLD description [TODO]"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "manish.an.sharma",
+        "$$hashKey": "object:287"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Nextgen Diagram",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 0,
+        "$$hashKey": "object:289",
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 260,
+                "y": 20
+              },
+              "angle": 0,
+              "id": "fdda2d5b-1b59-4a46-86ae-26e43a939a90",
+              "z": 1,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "d7e74586-fb2c-4850-a771-e0a2cfa2ab43",
+                  "$$hashKey": "object:992"
+                },
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic tampering threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "5319b743-8821-4ae9-8178-ef9d4b3bc5f4",
+                  "$$hashKey": "object:504"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "ba02249f-34e1-4fa1-ba17-6979e50713f4",
+                  "$$hashKey": "object:513"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic information disclosure threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "faef6582-bbd2-4a9a-a6de-585c9c4749aa",
+                  "$$hashKey": "object:522"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "4e21ee71-1e72-42a6-acca-b55538dd7c73",
+                  "$$hashKey": "object:531"
+                },
+                {
+                  "ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
+                  "title": "Generic elevation threat",
+                  "type": "Elevation of privilege",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic elevation of privileges threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "3172e8d3-f017-4dc5-83df-cfbfeb696f88",
+                  "$$hashKey": "object:540"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Interpreted\nPortfolio UI"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 330,
+                "y": 420
+              },
+              "angle": 0,
+              "id": "c5bbf897-4bd5-4a96-9c9b-95b0c00ad5a1",
+              "z": 2,
+              "hasOpenThreats": true,
+              "isEncrypted": false,
+              "storesCredentials": false,
+              "storesInventory": true,
+              "threats": [
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic tampering threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "7db1e368-b95b-4e4d-864d-34e0162fef6b",
+                  "$$hashKey": "object:569"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "87a6c086-c680-4dea-9895-4e9b8fb3d2a7",
+                  "$$hashKey": "object:570"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic information disclosure threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "1fba16c4-78a9-4148-bffe-b496f5552f36",
+                  "$$hashKey": "object:571"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "bb124b5a-edf5-4b20-b13e-3e2ee7c77355",
+                  "$$hashKey": "object:572"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Azure Storage"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 620,
+                "y": 190
+              },
+              "angle": 0,
+              "id": "bf42b409-e6a9-4c61-b84e-ff32853e823f",
+              "z": 3,
+              "hasOpenThreats": false,
+              "handlesGoodsOrServices": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Nextgen\nOrchestration\nservice"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "fdda2d5b-1b59-4a46-86ae-26e43a939a90"
+              },
+              "target": {
+                "id": "03e3b4d9-b3d8-45e8-a9d2-89146680c15f"
+              },
+              "vertices": [
+                {
+                  "x": 450,
+                  "y": 40
+                },
+                {
+                  "x": 470,
+                  "y": 90
+                }
+              ],
+              "id": "73e515e9-aba9-44e0-af43-95b5d9b5f810",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 3",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 260,
+                "y": 480
+              },
+              "target": {
+                "x": 550,
+                "y": 470
+              },
+              "vertices": [
+                {
+                  "x": 260,
+                  "y": 420
+                },
+                {
+                  "x": 340,
+                  "y": 370
+                },
+                {
+                  "x": 450,
+                  "y": 350
+                },
+                {
+                  "x": 560,
+                  "y": 390
+                }
+              ],
+              "id": "1c425b12-964b-4e0d-9baa-18bea332d13d",
+              "z": 6,
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Trust Boundary",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 20,
+                "y": 20
+              },
+              "angle": 0,
+              "id": "ae213c94-f142-467c-9ea3-526274a75b02",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Portfolio Users"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 20,
+                "y": 120
+              },
+              "angle": 0,
+              "id": "a0f0aa49-9b27-4800-bd49-81be0eb69786",
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Business Units"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 440,
+                "y": 110
+              },
+              "angle": 0,
+              "id": "03e3b4d9-b3d8-45e8-a9d2-89146680c15f",
+              "z": 10,
+              "hasOpenThreats": true,
+              "handlesGoodsOrServices": true,
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "5da90f07-3d48-4f9d-bed2-59bcb61896ed",
+                  "$$hashKey": "object:980"
+                },
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic tampering threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "9ed6591d-d828-4927-87f6-003c9c06824e",
+                  "$$hashKey": "object:895"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "cbdc50ae-80b3-488a-a59d-a8b612b1a314",
+                  "$$hashKey": "object:904"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic information disclosure threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "7899bcfd-7c5f-4a8a-8f99-0c0430d2f854",
+                  "$$hashKey": "object:913"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "52d0478d-38dd-47b6-a58f-2dae30b005ea",
+                  "$$hashKey": "object:922"
+                },
+                {
+                  "ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
+                  "title": "Generic elevation threat",
+                  "type": "Elevation of privilege",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic elevation of privileges threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "65bbfa79-69dd-4ad6-8e01-8f2eb60f768a",
+                  "$$hashKey": "object:931"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Api hub\nGateway"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 520,
+                "y": 120
+              },
+              "target": {
+                "id": "bf42b409-e6a9-4c61-b84e-ff32853e823f"
+              },
+              "vertices": [
+                {
+                  "x": 620,
+                  "y": 120
+                },
+                {
+                  "x": 680,
+                  "y": 160
+                }
+              ],
+              "id": "9ae248f2-67af-4711-8b18-c65b1bb3cae2",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5824879718397146,
+                    "offset": -2.436935083893248
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "flow 10",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 180,
+                "y": 170
+              },
+              "target": {
+                "id": "03e3b4d9-b3d8-45e8-a9d2-89146680c15f"
+              },
+              "vertices": [
+                {
+                  "x": 290,
+                  "y": 190
+                }
+              ],
+              "id": "10b4bfa2-c4f1-4121-8702-d6465e3c35fa",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.48386900764642987,
+                    "offset": -3.947870999397708
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "flow 11",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 690,
+                "y": 120
+              },
+              "target": {
+                "x": 680,
+                "y": 340
+              },
+              "vertices": [
+                {
+                  "x": 610,
+                  "y": 190
+                },
+                {
+                  "x": 560,
+                  "y": 280
+                },
+                {
+                  "x": 620,
+                  "y": 330
+                }
+              ],
+              "id": "5ffea85e-39de-42c2-bf7d-96e7cf007be8",
+              "z": 13,
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "trusted boundary",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 630,
+                "y": 270
+              },
+              "target": {
+                "id": "c5bbf897-4bd5-4a96-9c9b-95b0c00ad5a1"
+              },
+              "vertices": [
+                {
+                  "x": 570,
+                  "y": 340
+                },
+                {
+                  "x": 500,
+                  "y": 310
+                }
+              ],
+              "id": "3677333a-6195-473c-a5ae-31bf63728655",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 12",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 460,
+                "y": 1
+              },
+              "target": {
+                "x": 640,
+                "y": 90
+              },
+              "vertices": [
+                {
+                  "x": 420,
+                  "y": 200
+                },
+                {
+                  "x": 510,
+                  "y": 230
+                }
+              ],
+              "id": "fdf91ac2-170f-499f-83ba-80db9a01a80d",
+              "z": 15,
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4444516445248802,
+                    "offset": -2.5568287105154446
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "trusted boundary",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "ae213c94-f142-467c-9ea3-526274a75b02"
+              },
+              "target": {
+                "id": "fdda2d5b-1b59-4a46-86ae-26e43a939a90"
+              },
+              "vertices": [],
+              "id": "a4fa0067-262e-48c9-b2e9-23431d41359a",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 13",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 16,
+              "hasOpenThreats": false,
+              "isPublicNetwork": true,
+              "isEncrypted": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 599,
+          "width": 1420
+        }
+      }
+    ],
+    "reviewer": "Landmark"
+  }
+}
