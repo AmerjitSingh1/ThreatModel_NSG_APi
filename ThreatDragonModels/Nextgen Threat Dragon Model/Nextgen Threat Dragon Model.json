@@ -69,32 +69,6 @@
               }
             },
             {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 23,
-                "y": 331
-              },
-              "angle": 0,
-              "id": "a0f0aa49-9b27-4800-bd49-81be0eb69786",
-              "z": 9,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Business Unit"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Process",
               "size": {
                 "width": 100,
@@ -354,56 +328,6 @@
                 }
               ],
               "z": 18,
-              "hasOpenThreats": false,
-              "isPublicNetwork": true,
-              "protocol": "HTTPS",
-              "isEncrypted": true,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
-              "smooth": true,
-              "source": {
-                "id": "a0f0aa49-9b27-4800-bd49-81be0eb69786"
-              },
-              "target": {
-                "id": "cc02fa28-b866-46eb-9f6d-2f34c20cf936"
-              },
-              "vertices": [
-                {
-                  "x": 240,
-                  "y": 307
-                },
-                {
-                  "x": 347,
-                  "y": 226
-                }
-              ],
-              "id": "9598cf6f-bf17-4525-8806-45d19435079a",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "request",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 19,
               "hasOpenThreats": false,
               "isPublicNetwork": true,
               "protocol": "HTTPS",
