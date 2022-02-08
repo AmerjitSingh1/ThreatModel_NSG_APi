@@ -26,7 +26,7 @@
               },
               "position": {
                 "x": 24,
-                "y": 21
+                "y": 63
               },
               "angle": 0,
               "id": "ae213c94-f142-467c-9ea3-526274a75b02",
@@ -51,8 +51,8 @@
                 "height": 80
               },
               "position": {
-                "x": 23,
-                "y": 120
+                "x": 22,
+                "y": 241
               },
               "angle": 0,
               "id": "a0f0aa49-9b27-4800-bd49-81be0eb69786",
@@ -64,32 +64,6 @@
                 },
                 "text": {
                   "text": "Business Unit"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 24,
-                "y": 226
-              },
-              "angle": 0,
-              "id": "aae7acb7-6907-43dd-b2de-0138636ed6ef",
-              "z": 10,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Landmark Operations"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
