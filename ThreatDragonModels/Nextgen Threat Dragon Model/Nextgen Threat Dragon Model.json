@@ -332,6 +332,7 @@
               "hasOpenThreats": false,
               "isPublicNetwork": true,
               "protocol": "HTTPS",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -380,6 +381,53 @@
               "z": 19,
               "hasOpenThreats": false,
               "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "isEncrypted": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 464,
+                "y": 203
+              },
+              "target": {
+                "id": "44baca0b-1000-4859-89a2-5f68c0dfafe7"
+              },
+              "vertices": [
+                {
+                  "x": 564,
+                  "y": 276
+                }
+              ],
+              "id": "fb1fa572-7131-41ca-be26-3ce12486519d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "request",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 20,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
               "protocol": "HTTPS",
               "attrs": {
                 ".marker-target": {
