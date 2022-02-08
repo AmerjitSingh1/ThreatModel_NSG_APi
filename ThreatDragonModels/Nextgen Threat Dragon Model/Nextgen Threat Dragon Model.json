@@ -39,20 +39,20 @@
                   "type": "Spoofing",
                   "modelType": "STRIDE",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "Low",
                   "description": "Portfolio User uses another user's authentication information to create orders",
-                  "mitigation": "Mitigation or prevention for the threat",
+                  "mitigation": "Mitigation or prevention for the threat is Auth0 using Landmark Active Directory enterprise connection & logging of user authentication information",
                   "threatId": "91f78895-1f94-469e-abe7-6dd0590ec233"
                 },
                 {
                   "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
-                  "title": "Generic repudiation threat",
+                  "title": "Repudiation threat for Interpreted Portfolio Report",
                   "type": "Repudiation",
                   "modelType": "STRIDE",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
-                  "description": "A generic repudiation threat",
-                  "mitigation": "Mitigation or prevention for the threat",
+                  "description": "Repudiation threat for Interpreted Portfolio Report",
+                  "mitigation": "Mitigation or prevention for the threat is done by using an append log, which is persisted for 7 years, that records the generation data which is used in Portfolio Report",
                   "threatId": "86ac81e9-02ff-418b-97db-ebacb14ba5f4"
                 }
               ],
