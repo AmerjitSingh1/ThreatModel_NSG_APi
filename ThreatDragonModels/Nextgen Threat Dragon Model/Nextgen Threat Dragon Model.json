@@ -95,6 +95,237 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 399,
+                "y": 105
+              },
+              "angle": 0,
+              "id": "cc02fa28-b866-46eb-9f6d-2f34c20cf936",
+              "z": 11,
+              "hasOpenThreats": false,
+              "isWebApplication": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Landmark API\nHUB External"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 475,
+                "y": 18
+              },
+              "target": {
+                "x": 522,
+                "y": 349
+              },
+              "vertices": [
+                {
+                  "x": 318,
+                  "y": 93
+                },
+                {
+                  "x": 319,
+                  "y": 255
+                }
+              ],
+              "id": "9a59f6c7-95cb-40da-807e-3f86d078df25",
+              "z": 12,
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Internet",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 577,
+                "y": 104
+              },
+              "angle": 0,
+              "id": "44baca0b-1000-4859-89a2-5f68c0dfafe7",
+              "z": 13,
+              "hasOpenThreats": false,
+              "isWebApplication": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Experience API"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 788,
+                "y": 104
+              },
+              "angle": 0,
+              "id": "75fb5262-2c09-4464-bcf2-4b736a0d9cad",
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Next Gen\nSearch API\nGateway"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 944,
+                "y": 102
+              },
+              "angle": 0,
+              "id": "c52e9f7a-8bbf-4e70-ac23-811917d4ef71",
+              "z": 15,
+              "hasOpenThreats": false,
+              "isWebApplication": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Next Gen\nOrchestration\nService"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 873,
+                "y": 5
+              },
+              "target": {
+                "x": 903,
+                "y": 296
+              },
+              "vertices": [
+                {
+                  "x": 769,
+                  "y": 75
+                },
+                {
+                  "x": 738,
+                  "y": 124
+                },
+                {
+                  "x": 744,
+                  "y": 178
+                },
+                {
+                  "x": 795,
+                  "y": 241
+                },
+                {
+                  "x": 861,
+                  "y": 279
+                }
+              ],
+              "id": "24b07595-b8e6-4d6e-86a2-356375c18949",
+              "z": 16,
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Private Virtual\nNetwork",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1140,
+                "y": 187
+              },
+              "angle": 0,
+              "id": "e3240d90-c2e0-402e-b7e4-bfbc6a792455",
+              "z": 17,
+              "hasOpenThreats": false,
+              "isALog": true,
+              "storesInventory": true,
+              "isSigned": true,
+              "isEncrypted": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Next Gen Database"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
