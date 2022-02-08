@@ -1,0 +1,109 @@
+{
+  "summary": {
+    "title": "Nextgen Threat Dragon Model",
+    "owner": "Nextgen",
+    "description": "Nextgen orchestration HLD description [TODO]"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "manish.an.sharma"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Nextgen Diagram",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 24,
+                "y": 21
+              },
+              "angle": 0,
+              "id": "ae213c94-f142-467c-9ea3-526274a75b02",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Interpreted Portfolio UI"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 23,
+                "y": 120
+              },
+              "angle": 0,
+              "id": "a0f0aa49-9b27-4800-bd49-81be0eb69786",
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Business Unit"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 24,
+                "y": 226
+              },
+              "angle": 0,
+              "id": "aae7acb7-6907-43dd-b2de-0138636ed6ef",
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Landmark Operations"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 1560,
+          "width": 1420
+        }
+      }
+    ],
+    "reviewer": "Landmark"
+  }
+}
