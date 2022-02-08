@@ -109,9 +109,10 @@
               "z": 11,
               "hasOpenThreats": false,
               "isWebApplication": true,
+              "outOfScope": true,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "Landmark API\nHUB External"
