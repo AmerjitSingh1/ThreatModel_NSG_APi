@@ -52,7 +52,7 @@
                   "status": "Mitigated",
                   "severity": "Medium",
                   "description": "Repudiation threat for Interpreted Portfolio Report",
-                  "mitigation": "Mitigation or prevention for the threat is done by using an append log, which is persisted for 7 years, that records the generation data which is used in Portfolio Report",
+                  "mitigation": "Mitigation or prevention for the threat is done by using an append log, where data is persisted for 7 years. The log records the generated data which is used in the final Portfolio Report",
                   "threatId": "86ac81e9-02ff-418b-97db-ebacb14ba5f4"
                 }
               ],
@@ -75,7 +75,7 @@
                 "height": 80
               },
               "position": {
-                "x": 22,
+                "x": 23,
                 "y": 331
               },
               "angle": 0,
